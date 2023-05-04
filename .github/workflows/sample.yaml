@@ -15,6 +15,6 @@ jobs:
                 cat /etc/hosts
             - name: Python commands
               run: |
-                  import platoform
-                  print(platform.preocessor())
+                  import platform
+                  print(platform.processor())
               shell: python
