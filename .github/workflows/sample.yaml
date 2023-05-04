@@ -13,3 +13,8 @@ jobs:
                 node -v
                 npm -v
                 cat /etc/hosts
+            - name: Python commands
+              run: |
+                  import platoform
+                  print(platform.preocessor())
+              shell: python
